@@ -185,7 +185,7 @@ def player_stats(player_name)
        next unless player[:player_name] == player_name
     #  new_hash = player.add_if do |key, value|
          key == :player_name
-       end
+       #end
 #binding.pry
      end
    end
