@@ -184,7 +184,7 @@ def player_stats(player_name)
       game_hash[place][attribute].each do |player|
        next unless player[:player_name] == player_name
     #  new_hash = player.add_if do |key, value|
-         key == :player_name
+         new_hash == :player_name
        #end
 #binding.pry
      end
